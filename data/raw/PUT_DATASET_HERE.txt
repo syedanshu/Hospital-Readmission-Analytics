@@ -1,0 +1,6 @@
+Place the two dataset files here:
+
+1. diabetic_data.csv
+2. IDS_mapping.csv
+
+They are intentionally not bundled into this starter project.

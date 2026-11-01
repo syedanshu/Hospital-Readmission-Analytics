@@ -1,0 +1,27 @@
+{
+  "model_name": "xgboost",
+  "target": "readmission_flag",
+  "threshold": 0.5,
+  "features": [
+    "race",
+    "gender",
+    "age",
+    "admission_type_id",
+    "discharge_disposition_id",
+    "admission_source_id",
+    "length_of_stay",
+    "prior_admissions",
+    "diagnosis_count",
+    "medication_count"
+  ],
+  "group_key": "patient_key",
+  "split_strategy": "patient_grouped_60_20_20",
+  "test_metrics": {
+    "precision": 0.6096161869002921,
+    "recall": 0.6237993596584845,
+    "f1": 0.6166262263951894,
+    "brier_score": 0.22080016136169434,
+    "roc_auc": 0.6950048900300916
+  },
+  "intended_use": "Academic decision-support prototype; not for clinical use."
+}

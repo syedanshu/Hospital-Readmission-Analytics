@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+.pytest_cache/
+airflow_home/
+data/
+logs/
+mlflow.db
+mlruns/
+*.csv
+*.sqlite
+*.db

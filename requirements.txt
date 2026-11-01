@@ -1,0 +1,15 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+python-dotenv
+streamlit
+plotly
+apache-airflow
+scikit-learn
+mlflow
+xgboost
+fastapi
+uvicorn
+joblib
+pytest
